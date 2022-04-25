@@ -6,7 +6,7 @@
 /*   By: jsubel <jsubel@student.42wolfsburg.de >    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/11 15:18:49 by jsubel            #+#    #+#             */
-/*   Updated: 2022/04/25 12:24:01 by jsubel           ###   ########.fr       */
+/*   Updated: 2022/04/25 14:36:17 by jsubel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,6 @@ static char	*ft_find_cmd_path(char **paths, char *cmd);
 
 void	ft_childprocess(t_pipex_b pipex, char **argv, char **envp)
 {
-	int	i;
-
-	i = 0;
 	pipex.pid = fork();
 	if (pipex.pid == 0)
 	{
