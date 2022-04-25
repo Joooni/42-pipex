@@ -49,13 +49,11 @@ $(NAME): $(OBJS) $(LIBFT)/libft.a
 clean:
 	make clean -C $(LIBFT)
 	rm -rf $(OBJ_PATH)
-	rm test_out*
 	rm -f $(addprefix $(GNL_PATH)/,$(GNL:.c=.o))
 
-fclean:
-	make clean
+fclean: clean
+	rm $(LIBFT)/libft.a
 	rm -f $(NAME)
-	make fclean -C $(LIBFT)
 	rm -f $(addprefix $(GNL_PATH)/,$(GNL:.c=.o))
 
 
