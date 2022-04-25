@@ -6,7 +6,7 @@
 /*   By: jsubel <jsubel@student.42wolfsburg.de >    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 09:28:40 by jsubel            #+#    #+#             */
-/*   Updated: 2022/04/25 11:20:23 by jsubel           ###   ########.fr       */
+/*   Updated: 2022/04/25 14:28:12 by jsubel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@
 # include <sys/wait.h>
 # include <string.h>
 # include <stdio.h>
-# include "../libft/libft.h"
-# include "../42-get-next-line/get_next_line.h"
+# include "../42_libft/libft.h"
+# include "../42_get_next_line/get_next_line.h"
 
 # define ERROR_INFILE		"Error - Infile"
 # define ERROR_OUTFILE		"Error - Outfile"

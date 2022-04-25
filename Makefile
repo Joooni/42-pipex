@@ -9,9 +9,9 @@ FLAGS = -Wall -Wextra -Werror -ggdb3
 # -*- Includes -*-
 SRC_PATH	= src
 OBJ_PATH	= obj
-LIBFT		= libft
+LIBFT		= 42_libft
 INCL		= incl
-GNL_PATH	= 42-get-next-line
+GNL_PATH	= 42_get_next_line
 
 # -*- Source Files -*-
 SRC	=	pipex_bonus.c \
